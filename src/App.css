@@ -73,3 +73,18 @@ body {
 	padding: 20px;
 	text-align: center;
 }
+
+.col-heading{
+  position: relative;
+}
+
+.col-heading:after {
+  content: "";
+  display: block;
+  width: 83%;
+  height: 5px;
+  background: #b1b1b4;
+  left: 18%;
+  top: 50%;
+  position: absolute;
+}
